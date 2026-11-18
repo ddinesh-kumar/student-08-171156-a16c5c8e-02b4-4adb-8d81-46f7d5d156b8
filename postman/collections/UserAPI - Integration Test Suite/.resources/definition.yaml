@@ -1,0 +1,12 @@
+$kind: collection
+description: This is a description
+variables:
+  baseUrl: /
+auth:
+  - id: 4cc5fbb0-7eb9-41ea-a88a-0762110911e9
+    type: apikey
+    name: apikey auth
+    credentials:
+      key: X-API-Key
+      value: "{{apiKey}}"
+      in: header
